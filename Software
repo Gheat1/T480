@@ -1,0 +1,38 @@
+T480 OS
+
+// OS - Debian 13 (trixie)
+// Skin - KDE Plasma 6.5
+// Specs
+    | CPU: I7 8th gen
+    | Ram: 16 GiB 
+    | Other Features: touchscreen, backlit,
+    \                 Fingerprint.
+// Debuging
+    | fingerprint sensor setup with fprintd; had to
+    | install drivers to fix the fingerprint sensor
+    // https://github.com/uunicorn/python-validity
+    ----------------------------------------------------
+    | to get the sddm to work i had to hard code it in
+    | i am using the austronaut theme linked below
+    // https://github.com/Keyitdev/sddm-astronaut-theme
+// Rice
+  | Grub: Sleek Theme Dark
+  | Font: Agave Nerd Font
+  | Spicetify: TUI
+  | Better Discord: TUI
+  | Alacritty:
+      \
+      | [general]
+        import = [
+        "~/.config/alacritty/themes/themes/alacritty_0_12.toml"
+        ]
+  | Colors: Monochrome KDE store 
+  | Icons: Papirus Dark White Folders
+  | Cursor: McMojave Cursors
+  \ FastFetch: Linked
+// Defaults
+  | Browser: Brave Browser
+  | Text Editor: NeoVim, Kate
+  | File Explorer: Dolphin
+  \ Terminal: Alacritty
+  
